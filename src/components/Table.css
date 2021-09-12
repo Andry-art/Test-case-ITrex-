@@ -1,0 +1,138 @@
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+.table .title {
+  height: 50px;
+  background-color: #dee6fc;
+}
+.table .title th:nth-child(1) {
+  border-radius: 10px 0 0 0;
+}
+.table .title th:nth-child(6) {
+  border-radius: 0 10px 0 0;
+}
+.table .title .main-row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.table .row {
+  height: 30px;
+  cursor: default;
+}
+.table .row:hover {
+  background-color: #5c5e68;
+  color: #dee6fc;
+}
+.table .id {
+  width: 100px;
+  text-align: center;
+}
+.table .name {
+  width: 150px;
+  text-align: center;
+  padding-left: 10px;
+}
+.table .lastname {
+  width: 150px;
+  text-align: center;
+  padding-left: 10px;
+}
+.table .email {
+  width: 230px;
+  text-align: center;
+  padding-left: 10px;
+}
+.table .phone {
+  width: 150px;
+  text-align: center;
+  padding-left: 10px;
+}
+.pages {
+  display: flex;
+  position: relative;
+  top: -30px;
+  left: 850px;
+}
+.pages p {
+  width: 80px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.pages button {
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: #dee6fc;
+}
+.pages button:hover {
+  background-color: #5c5e68;
+  color: #dee6fc;
+}
+.choosenUser {
+  width: 900px;
+  height: auto;
+  margin: 0 auto 80px auto;
+  border-radius: 10px;
+  box-shadow: grey;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.choosenUser .profile {
+  margin-left: 60px;
+  padding-top: 40px;
+}
+.choosenUser .selected {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-bottom: -10px;
+}
+.choosenUser .selected p {
+  line-height: 30px;
+  margin-left: 20px;
+}
+.choosenUser .description {
+  position: relative;
+  bottom: 210px;
+  left: 430px;
+  width: 400px;
+}
+.errowUp_active {
+  position: relative;
+  top: -7px;
+  left: 8px;
+  width: 8px;
+  height: 8px;
+}
+.errowUp {
+  position: relative;
+  top: -7px;
+  left: 8px;
+  width: 8px;
+  height: 8px;
+  opacity: 0.4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.errowDown {
+  position: relative;
+  top: 3px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(180deg);
+  opacity: 0.4;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.errowDown_active {
+  position: relative;
+  top: 3px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(180deg);
+}

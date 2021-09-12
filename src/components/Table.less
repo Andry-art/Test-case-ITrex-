@@ -1,0 +1,172 @@
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-bottom: 60px;
+    
+
+    .title{
+        height: 50px;
+        background-color: rgb(222, 230, 252);
+        
+        th:nth-child(1){
+            border-radius: 10px 0 0 0;
+        }
+        th:nth-child(6){
+            border-radius:  0 10px 0 0;
+        }
+
+        .main-row{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+
+    .row{
+        height: 30px;
+        cursor: default;
+        &:hover{
+            background-color: rgb(92, 94, 104);
+            color:rgb(222, 230, 252)
+        }
+    }
+    
+    .id {
+        width: 100px;
+        text-align: center;
+        
+    }
+
+    .name {
+        width: 150px;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .lastname{
+        width: 150px;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .email{
+        width: 230px;
+        text-align: center;
+        padding-left: 10px; 
+    }
+
+    .phone{
+        width: 150px;
+        text-align: center;
+        padding-left: 10px;  
+    }
+}
+
+.pages{
+    display: flex;
+    position: relative;
+    top:-30px;
+    left: 850px;
+
+    p{
+        width: 80px;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    button{
+        width: 120px;
+        height: 40px;
+        border-radius: 50px;
+        border: none;
+        background-color: rgb(222, 230, 252) ;
+
+        &:hover{
+            background-color: rgb(92, 94, 104);
+            color: rgb(222, 230, 252) ;
+        }
+    }
+}
+
+.choosenUser{
+    width:900px;
+    height: auto;
+    margin: 0 auto 80px auto;
+    border-radius: 10px;
+    box-shadow: grey;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+                0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5),
+                0 1px 4px rgba(0, 0, 0, 0.3) ,
+                0 0 40px rgba(0, 0, 0, 0.1) inset;
+    
+
+    .profile{
+        margin-left: 60px;
+        padding-top: 40px;
+    }
+
+    .selected{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 60px;
+        margin-bottom: -10px;
+        
+        p{
+            line-height: 30px;
+            margin-left: 20px;
+        }
+    }
+    
+    .description{
+        position: relative;
+        bottom: 210px;
+        left: 430px;
+        width: 400px;
+    }
+}
+
+
+.errowUp_active{
+    position: relative;
+    top: -7px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+   
+}
+
+.errowUp{
+    position: relative;
+    top: -7px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    opacity: 0.4;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+   
+}
+
+.errowDown{
+    position: relative;
+    top: 3px;
+    width: 8px;
+    height: 8px;  
+    transform: rotate(180deg);
+    opacity: 0.4;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.errowDown_active{
+    position: relative;
+    top: 3px;
+    width: 8px;
+    height: 8px;  
+    transform: rotate(180deg);
+}
+
+
